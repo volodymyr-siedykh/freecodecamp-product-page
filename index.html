@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' integrity='sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==' crossorigin='anonymous'/>
+  <link rel="stylesheet" href="style.css">
+  <title>Product Page</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="nav">
+      <div class="nav__logo">
+        <img class="nav__img" id="header-img" src="img/logo.svg" alt="logo">
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+      <nav class="nav__list" id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#about">Pages</a></li>
+          <li><a class="nav-link" href="#about">Blog</a></li>
+          <li><a class="nav-link" href="#about">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">We deliver the taste of life</h1>
+          <p class="hero__text">Get it delivered right to your door.</p>
+          <form action="https://www.freecodecamp.com/email-submit" class="hero__form" id="form">
+            <input class="form__email" name="email" type="email" id="email" placeholder="Enter your email" required>
+            <input class="form__submit" type="submit" id="submit" value="Order">
+          </form>
+        </div>
+      </div>
+    </section>
+      
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <h2 class="about__title">About our dishes</h2>
+          <iframe calss="about__video" id="video" width="560" height="315" src="https://www.youtube.com/embed/0SPwwpruGIA" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="nav__logo">
+        <img src="img/logo.svg" alt="">
+      </div>
+      <div class="contacts">
+        <p>Call us to make an order!</p>
+        <div class="contacts__phone">+1 654 847 52 25</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
